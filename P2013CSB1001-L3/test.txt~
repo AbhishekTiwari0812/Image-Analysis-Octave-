@@ -1,0 +1,14 @@
+#
+A=imread('/home/2013CSB1001/P2013CSB1001-L3/boat.tif');
+myAnisotropic(A,0.1,0.015,1);
+myAnisotropic(A,0.1,0.015,5);
+myAnisotropic(A,0.1,0.015,10);
+
+myAnisotropic(A,0.1,0.015,5);
+myAnisotropic(A,0.2,0.015,5);
+myAnisotropic(A,0.3,0.015,5);
+
+myAnisotropic(A,0.1,0.010,5);
+myAnisotropic(A,0.1,0.020,5);
+myAnisotropic(A,0.1,0.030,5);
+
