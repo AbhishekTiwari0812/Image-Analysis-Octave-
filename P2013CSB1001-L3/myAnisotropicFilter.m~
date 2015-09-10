@@ -20,6 +20,8 @@ function [o]=myAnisotropicFilter(inImg,Lambda,Sigma,NIter)
 			end
 		end
 		old(:,:)=new(:,:);
+		
 	end 	
 	o=new;
+
 end
